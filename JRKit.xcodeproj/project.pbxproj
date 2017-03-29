@@ -60,7 +60,7 @@
 			children = (
 				2BE376081E8BDC3C00145E79 /* Person.swift */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
