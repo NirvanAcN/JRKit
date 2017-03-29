@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2BE376011E8BDC1000145E79 /* JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE375FF1E8BDC1000145E79 /* JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BE376091E8BDC3C00145E79 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE376081E8BDC3C00145E79 /* Person.swift */; };
+		2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762A1E8BE5C100145E79 /* JRKit.swift */; };
+		2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762C1E8BE5D000145E79 /* Pig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		2BE375FF1E8BDC1000145E79 /* JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRKit.h; sourceTree = "<group>"; };
 		2BE376001E8BDC1000145E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE376081E8BDC3C00145E79 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2BE3762A1E8BE5C100145E79 /* JRKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRKit.swift; sourceTree = "<group>"; };
+		2BE3762C1E8BE5D000145E79 /* Pig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				2BE376081E8BDC3C00145E79 /* Person.swift */,
+				2BE3762A1E8BE5C100145E79 /* JRKit.swift */,
+				2BE3762C1E8BE5D000145E79 /* Pig.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */,
+				2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */,
 				2BE376091E8BDC3C00145E79 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +270,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JRKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +291,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JRKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
