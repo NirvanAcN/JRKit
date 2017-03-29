@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Person: NSObject {
+open class Person: NSObject {
     private override init() { }
-    open class func say() {
+    class func say() {
         print("hello world")
     }
 }

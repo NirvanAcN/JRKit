@@ -11,6 +11,7 @@
 		2BE376091E8BDC3C00145E79 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE376081E8BDC3C00145E79 /* Person.swift */; };
 		2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762A1E8BE5C100145E79 /* JRKit.swift */; };
 		2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762C1E8BE5D000145E79 /* Pig.swift */; };
+		2BE3762F1E8BE90D00145E79 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762E1E8BE90D00145E79 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2BE376081E8BDC3C00145E79 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2BE3762A1E8BE5C100145E79 /* JRKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRKit.swift; sourceTree = "<group>"; };
 		2BE3762C1E8BE5D000145E79 /* Pig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
+		2BE3762E1E8BE90D00145E79 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2BE376081E8BDC3C00145E79 /* Person.swift */,
 				2BE3762A1E8BE5C100145E79 /* JRKit.swift */,
 				2BE3762C1E8BE5D000145E79 /* Pig.swift */,
+				2BE3762E1E8BE90D00145E79 /* StringExtension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE3762F1E8BE90D00145E79 /* StringExtension.swift in Sources */,
 				2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */,
 				2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */,
 				2BE376091E8BDC3C00145E79 /* Person.swift in Sources */,

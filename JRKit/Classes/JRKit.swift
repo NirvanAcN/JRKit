@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JRKit: NSObject {
+open class JRKit: NSObject {
 
     open class func kkkk() {
         print("go")
