@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "JRKit"
-s.version          = "0.0.3"
+s.version          = "0.0.4"
 s.summary          = "红红火火恍恍惚惚"
 
 s.description      = <<-DESC
