@@ -13,4 +13,8 @@ open class Person: NSObject {
     class func say() {
         print("hello world")
     }
+    
+    public func run() {
+        print("100m")
+    }
 }
