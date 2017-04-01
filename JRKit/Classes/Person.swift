@@ -14,7 +14,7 @@ open class Person: NSObject {
         print("hello world")
     }
     
-    public func run() {
+    public class func run() {
         print("100m")
     }
 }
