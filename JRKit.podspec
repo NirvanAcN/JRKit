@@ -27,7 +27,7 @@ s.source           = { :git => "https://github.com/NirvanAcN/JRKit.git", :tag =>
 
 s.ios.deployment_target = '8.0'
 s.platform     = :ios, '8.0'
-s.source_files = 'JRKit/Classes/**/*'
+#s.source_files = 'JRKit/Classes/**/*'
 
 s.frameworks = 'UIKit'
 
