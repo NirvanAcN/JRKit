@@ -9,12 +9,14 @@
 Pod::Spec.new do |s|
 
 s.name             = "JRKit"
-s.version          = "0.0.4"
-s.summary          = "红红火火恍恍惚惚"
+s.version          = "1.0.0"
+s.summary          = "JRKit"
 
 s.description      = <<-DESC
-    是吗呵呵,是吗呵呵,是吗呵呵,是吗呵呵,是吗呵呵,是吗呵呵,是吗呵呵,是吗呵呵
-        DESC
+JRLoopView
+JRTimer
+JRString
+DESC
 
 s.homepage         = "https://github.com/NirvanAcN/JRKit"
 
@@ -28,5 +30,9 @@ s.platform     = :ios, '8.0'
 s.source_files = 'JRKit/Classes/**/*'
 
 s.frameworks = 'UIKit'
+
+s.dependency 'JRLoopView'
+s.dependency 'JRTimer'
+s.dependency 'JRString'
 
 end

@@ -8,20 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2BE376011E8BDC1000145E79 /* JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE375FF1E8BDC1000145E79 /* JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BE376091E8BDC3C00145E79 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE376081E8BDC3C00145E79 /* Person.swift */; };
-		2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762A1E8BE5C100145E79 /* JRKit.swift */; };
-		2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762C1E8BE5D000145E79 /* Pig.swift */; };
-		2BE3762F1E8BE90D00145E79 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3762E1E8BE90D00145E79 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BE375FC1E8BDC1000145E79 /* JRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE375FF1E8BDC1000145E79 /* JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRKit.h; sourceTree = "<group>"; };
 		2BE376001E8BDC1000145E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BE376081E8BDC3C00145E79 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		2BE3762A1E8BE5C100145E79 /* JRKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRKit.swift; sourceTree = "<group>"; };
-		2BE3762C1E8BE5D000145E79 /* Pig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
-		2BE3762E1E8BE90D00145E79 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +56,6 @@
 		2BE376071E8BDC2400145E79 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2BE376081E8BDC3C00145E79 /* Person.swift */,
-				2BE3762A1E8BE5C100145E79 /* JRKit.swift */,
-				2BE3762C1E8BE5D000145E79 /* Pig.swift */,
-				2BE3762E1E8BE90D00145E79 /* StringExtension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -152,10 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE3762F1E8BE90D00145E79 /* StringExtension.swift in Sources */,
-				2BE3762D1E8BE5D000145E79 /* Pig.swift in Sources */,
-				2BE3762B1E8BE5C100145E79 /* JRKit.swift in Sources */,
-				2BE376091E8BDC3C00145E79 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
