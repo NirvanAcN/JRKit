@@ -9,13 +9,14 @@
 Pod::Spec.new do |s|
 
 s.name             = "JRKit"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "JRKit"
 
 s.description      = <<-DESC
-JRLoopView
-JRTimer
-JRString
+    JRLoopView
+    JRTimer
+    JRString
+    JRDate
 DESC
 
 s.homepage         = "https://github.com/NirvanAcN/JRKit"
@@ -34,5 +35,6 @@ s.frameworks = 'UIKit'
 s.dependency 'JRLoopView'
 s.dependency 'JRTimer'
 s.dependency 'JRString'
+s.dependency 'JRDate'
 
 end
